@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body class="show-chatbot">
+    <button class="chatbot-toggler">
+        <span class="material-icons-outlined"><i class='bx bxs-message-dots'></i></span>
+        <span class="material-icons-outlined"><i class='bx bx-x'></i></span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>chatbot</h2>
+            <span class="material-icons-outlined"><i class='bx bx-x'></i></span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-icons-outlined"><i class="fa-solid fa-robot"></i></span>
+                <p>Olá👋 <br>Como podemos te ajudar?</p>
+            </li>
+                <li class="chat outgoing">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </li>
+            </ul>
+            <div class="chat-input">
+            <textarea placeholder="Envie uma mensagem ..." required></textarea>
+            <span id="send-btn" class="material-icons-outlined"><i class='bx bx-send'>Enviar</i></span>
+        </div> 
+    </div>
+    <script src="main.js" defer></script>
+</body>
+
+</html>
